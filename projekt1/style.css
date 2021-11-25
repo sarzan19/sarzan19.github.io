@@ -1,0 +1,66 @@
+.panda {
+	     float: left;
+	     width: 100px;
+}
+
+.red {
+	  float: right;
+	  width: 100px;
+}
+
+body{
+	  background-color: #945048;
+}
+
+h1 {
+	text-align: center;
+	border: 20px solid white;
+	padding: 20px;
+	margin: 10px;
+	background-color: white ;
+	border-radius: 8px;
+	color: #e86758;
+}
+
+h2 {
+	background-color: white;
+	color: #d98980;
+}
+
+h3 {
+	color: white;
+}
+
+p {
+	font-size: 20px;
+	font-style: italic;
+	color: white;
+}
+
+li {
+	background-color: white;
+	border: 10px;
+	padding: 5px;
+	margin: 5px;
+}
+
+img{
+	border: 3px darkred ;
+	margin: 2px;
+	padding: 2px;
+}
+
+
+div {
+	  background-color: white;
+	  margin: 50px;
+	  padding: 50px;
+}
+
+.genshin {
+	      float: right;
+	      border: 10px solid white;
+	      padding: 10px;
+	      margin: 10px;
+	      width: 300px;
+}
