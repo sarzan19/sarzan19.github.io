@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
+
+body {
+	  
+	   min-height: 100vh;
+	   margin:0;
+	   display: flex;
+	   align-items: center;
+	   justify-content: center;
+	   background-image: url("background.jpg");
+	   background-size: cover;
+	   background-position: center;
+	   color: white;
+	  
+}
+
+.card {
+	    border: 30px double rgb(255,255, 255);
+	    margin: 50px;
+	    padding: 30px;
+	    background: rgb(235,117,117);
+background: radial-gradient(circle, rgba(235,117,117,0.8519782913165266) 0%, rgba(255,114,174,0.6979166666666667) 100%);
+border-radius: 40px;
+transition: all 4s;
+}
+
+.card:hover {
+	transform: scale(1.5) rotate(360deg);
+	transition: all 4s;
+
+}
+
+h1 {
+	 font-family: Comfortaa;
+}
+
+h2 {
+	font-family: Comfortaa;
+}
+
+p {
+	font-family: Comfortaa;
+}
