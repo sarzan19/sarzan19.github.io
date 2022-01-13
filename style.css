@@ -1,37 +1,37 @@
-.red{
-	  color: red;
-	  background: red;
-	  width: 2000px;
-	  height: 60px;
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Dongle&family=Neonderthaw&display=swap');
+
+.lorem1 {
+	   font-family: Dongle;
+	   border: 5px black solid ;
+	   border-radius: 10px;
+	  background: rgb(217,105,171);
+background: radial-gradient(circle, rgba(217,105,171,1) 0%, rgba(255,195,213,1) 38%, rgba(111,209,230,1) 100%);;
+font-size: 30px ;
+color: white;
 }
 
-#white {
-	     color: white;
-	     background: white;
-	     height: 60px;
+body {
+	   background: black;
 }
 
-h1 {
-	text-align: Center;
-	background-color:#ff6363;
-	font-size: 50px;
-
+.lorem2 {
+	   font-family: Dongle;
+	   border: 5px black solid ;
+	   border-radius: 10px;
+	  background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+font-size: 30px ;
+color: white;
 }
 
-img{
-	width: 300px;
-	float: right;
-	border: 10px double red;
-	border-radius: 8px;
-	padding: 10px;
-	margin: 40px;
-
+.lorem3 {
+	   font-family: Dongle;
+	   border: 5px black solid ;
+	   border-radius: 10px;
+	  background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(85,198,153,1) 37%, rgba(175,80,166,1) 59%, rgba(89,75,214,1) 80%, rgba(252,70,107,1) 100%);
+font-size: 30px ;
+color: white;
 }
-
-p{
-	font-size: 20px;
-	font-style: italic;
-}
-
 
 
