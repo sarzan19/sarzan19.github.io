@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&display=swap');
+
+p {
+	font-family: Lobster;
+	text-align: justify;
+column-count: 3;
+line-height: 1.5;
+font-size: 30px;
+color: white;
+}
+
+h1 {
+     font-family: Bebas Neue;
+     text-align: center;
+     color: white;
+     
+}
+
+body {
+	background: rgb(0,0,0);
+background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(23,0,135,1) 31%, rgba(28,35,175,1) 45%, rgba(23,0,135,1) 67%, rgba(0,0,0,1) 100%);
+}
+
+.signature {
+              font-family: Lobster;
+              font-size: 50px;
+}
