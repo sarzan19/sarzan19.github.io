@@ -1,0 +1,49 @@
+body {
+	   background-color:#94b5e0;
+}
+
+h1 {
+	font-size: 50px;
+	padding: 30px;
+	text-align: center;
+	background-color: #7897bf;
+	color: white;
+}
+
+a {
+	background-color: white;
+	padding: 5px;
+	color: black;
+	
+
+}
+
+p {
+	max-width: 600px;
+	margin: auto;
+
+}
+
+h2{
+	font-size:30px ;
+	border: 10px solid white;
+	margin: 20px;
+	padding: 20px;
+	border-radius: 8px;
+	text-align: center;
+	color: white;
+
+}
+
+li{
+	font-size: 40px;
+	color: #cccccc;
+}
+
+img {
+	  width: 300px;
+	  border: 10px solid white;
+	  padding: 5px;
+	  border-radius: 8px;
+	  float: right;
+}

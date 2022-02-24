@@ -1,0 +1,25 @@
+h1{
+	text-align: left;
+	border: 10px;
+	border-color:#2f1985;
+	background-color: lightblue;
+	margin: 80px;
+	padding: 70px;
+	border-style: solid;
+	border-radius: 16px;
+}
+
+body{
+	 background-color: blue;
+}
+
+h2 {
+	text-align: right;
+	border: 10px;
+	border-color:#2f1985;
+	background-color: lightblue;
+	margin: 80px;
+	padding: 70px;
+	border-style: dotted;
+	border-radius: 16px;
+}
