@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans&display=swap');
+
+body {
+	margin: 0;
+}
+
+
+nav {
+	 background: rgb(68,246,255);
+background: radial-gradient(circle, rgba(68,246,255,1) 0%, rgba(6,5,32,1) 100%);
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 30px;
+}
+
+nav img {
+	  height: 70px;
+	  border-radius: 50%;
+}
+
+nav ul {
+	 display: flex;
+	 justify-content: flex-end;
+	 align-items: center;
+	 list-style-type: none;
+}
+
+nav ul li a {
+	           margin: 20px;
+	           padding: 20px;
+	           text-decoration: none;
+	           background: rgba(255, 255, 255, 0.7);
+	           border-radius: 15px;
+	           font-family: Smooch Sans;
+	           font-size:20px ;
+
+	       }
+
+nav ul li a:hover {
+	
+	color: white;
+	background: rgb(75,224,255);
+background: radial-gradient(circle, rgba(75,224,255,1) 16%, rgba(0,0,0,1) 70%);
+}
