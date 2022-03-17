@@ -1,0 +1,124 @@
+/*
+*Title: Basic Website About ;
+* Author:  Sara Zani;
+* Date: 17.03.2022;
+*/
+
+
+/***************************** General Styling ******************************************/
+
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&family=Hurricane&family=Smooch+Sans&display=swap');
+
+:root {
+	scroll-behavior: smooth;
+}
+
+
+body {
+	margin: 0;
+}
+
+
+
+nav {
+	 background: rgb(244,188,211);
+background: linear-gradient(180deg, rgba(244,188,211,1) 7%, rgba(255,255,255,1) 63%);
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 30px;
+}
+
+nav img {
+	  height: 70px;
+	  border-radius: 50%; /*to make the logo round*/
+}
+
+nav ul {
+	 display: flex;
+	 justify-content: flex-end;
+	 align-items: center;
+	 list-style-type: none;/*removes bullet point*/
+}
+
+nav ul li a {
+	           margin: 20px;
+	           padding: 20px;
+	           text-decoration: none;/*removes underline*/
+	           background: rgba(255, 255, 255, 0.7);
+	           border-radius: 15px;
+	           font-family: Smooch Sans;
+	           font-size:20px ;
+
+	       }
+
+nav ul li a:hover {
+	
+	color: darkred;
+	background: rgb(255,255,255);
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,195,213,1) 38%, rgba(255,255,255,1) 100%);/*changes elements if you move the mouse over it*/
+}
+
+/*Header*/
+
+header {
+	 height: 700px;
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+	 background-image: url(header-background.jpg);
+	 background-position: center;
+	 background-size: cover;
+	 font-family: Hurricane;
+	 font-size: 60px;
+}
+
+header h1 {
+	 font-size: 60px;
+	 background-color: rgba(255, 255, 255, 0.7);
+	 color: pink;
+}
+
+/*Main*/
+
+main {
+	padding: 60px;
+	background: lightpink;
+
+}
+
+main h2 {
+	color: white;
+	font-size: 40px;
+	font-family:Hubballi ;
+}
+
+main p {
+	background-color: white;
+	border-radius: 8px;
+	padding: 20px;
+	font-family:Hubballi ;
+	font-size: 20px;
+}
+
+li {
+	color: white;
+	font-family:Hubballi ;
+	font-size: 30px;
+}
+
+/*Footer*/
+
+footer {
+	height: 400px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	background-image: url(footer-background.jpg);
+	background-size: cover;
+	background-position: center;
+	font-family: Hubballi;
+    font-size: 30px;
+
+
+}
