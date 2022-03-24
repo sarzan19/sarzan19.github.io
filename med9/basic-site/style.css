@@ -101,6 +101,30 @@ main p {
 	font-size: 20px;
 }
 
+//*section*//
+section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     
+}
+section .left{
+	width: 40%;
+	
+	padding: 30px;
+	background: rgb(232,160,172);
+background: linear-gradient(90deg, rgba(232,160,172,1) 52%, rgba(255,255,255,1) 82%);
+color: white;
+}
+
+section .right{
+	width: 60%;
+	
+	padding: 30px;
+	color: white;
+	background: rgb(232,160,172);
+background: linear-gradient(90deg, rgba(232,160,172,1) 52%, rgba(255,255,255,1) 82%);
+}
 li {
 	color: white;
 	font-family:Hubballi ;
@@ -121,4 +145,38 @@ footer {
     font-size: 30px;
 
 
+}
+
+/****************************page styling*******************************/
+
+/*Home Page*/
+
+#home header {
+	background-image: url(contact.jpg);
+
+}
+
+/*Contact Page*/
+
+#contact header {
+	background-image: url(con2.jpg);
+}
+
+#contact main p {
+	background-color: white;
+	padding: 100px;
+}
+
+ #home #tulip{
+	        
+	        display: flex;
+	        justify-content: center;
+	        align-items: center;
+	        flex-wrap: wrap;
+	}
+
+#home #tulip img {
+	width: 200px;
+	margin: 10px;
+	border: 2px solid pink;
 }
