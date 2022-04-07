@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body {
+	margin: 0;
+	background-color: #6c917e;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+
+article {
+ font-family: Roboto;
+}
+
+article .image {
+	width: 390px;
+	height: 250px;
+	background-image: url("ivy.jpg");
+	background-position:center;
+	background-size:cover;
+}
+
+article .text {
+	width: 350px;
+	height: 200px;
+	background-color: white;
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	flex-direction: column;
+}
+
+article .text .mini-footer {
+	 display: flex;
+	 align-items: center;
+	 justify-content: space-between;
+	 color: darkgrey;
+	 font-size: 12px;
+	 width: 100%;
+
+}
+article .text .mini-header {
+	text-transform: uppercase;
+}
+
+article .text .mini-header span {
+	margin-right: 10px;
+}
+
+article .text .mini-header {
+ text-transform: uppercase;
+ font-size: 12px;
+}
+
+article .red-box {
+	background-color: red;
+	color: white;
+	padding: 10px;
+	position: absolute;
+	top: 436px;
+}
