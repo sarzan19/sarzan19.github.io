@@ -1,7 +1,7 @@
 /*
 *Title: Basic Website About ;
 * Author:  Sara Zani;
-* Date: 17.03.2022;
+* Date: 28.04.2022;
 */
 
 
@@ -17,7 +17,7 @@
 
 body {
 	margin: 0;
-	background: black;
+	
 
 
 }
@@ -25,8 +25,7 @@ body {
 
 
 nav {
-	 background-image: url(header.jpg);
-	 background-size: 400px;
+	background-color: black;
 display: flex;
 justify-content: space-between;
 align-items: center;
@@ -60,7 +59,7 @@ nav ul li a {
 
 nav ul li a:hover {
 	
-	color: #59ff9b;
+	color: white;
 	background: black;/*changes elements if you move the mouse over it*/
 }
 
@@ -71,7 +70,7 @@ header {
 	 display: flex;
 	 justify-content: center;
 	 align-items: center;
-	text-shadow: 0 0 7px #00FF00, 0 0 10px #0000FF;
+	text-shadow: 0 0 10px #0000FF, 0 0 13px #0000FF;
 	 font-family: Graffiti;
 	 font-size: 60px;
 }
@@ -82,6 +81,8 @@ header h1 {
 	 border: double white 20px ;
 	 padding: 10px;
 	 margin: 10px;
+	 border-radius: 20px;
+	 background: black;
 	 
 
 }
