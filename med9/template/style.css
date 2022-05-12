@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Blinker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@100;400&display=swap');
+
+body{
+	padding: 2px;
+}
+
+nav {
+	display: flex;
+justify-content: space-between;
+
+position: fixed;
+width: calc(100% - 20px);
+border-bottom: solid #8c8c8c 0.5px;
+}
+
+#sp {
+	font-family: Hubballi;
+}
+
+.logo {
+	font-family: Blinker;
+	padding-left: 15px;
+}
+
+
+
+nav ul li a {
+	           margin: 20px;
+	           padding: 20px;
+	           text-decoration: none;/*removes underline*/
+	           border-radius: 15px;
+	           font-size:15px ;
+	           font-family: Hubballi;
+	           background: white;
+	           color: black;
+
+	       }
+
+
+nav ul {
+	 display: flex;
+	 justify-content: flex-end;
+	 align-items: center;
+	 list-style-type: none;
+	 justify-content: flex-end;
+}
+
+section {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+		margin:30px;
+	padding: 60px;
+}
+
+img {
+	width: 300px;
+}
+
+p {
+	font-family: Hubballi;
+	position: fixed;
+    background: black;
+    color: white;
+   }
